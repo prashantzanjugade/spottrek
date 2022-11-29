@@ -14,3 +14,4 @@ master.account_manager [master] 2022-11-29T11:27:18Z prashantz <zanjugadeprashan
 master.users [master.user_type] 2022-11-29T11:31:07Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.users
 master.client [master.groups master.sub_group master.account_manager master.users] 2022-11-29T11:37:25Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.client
 master.client_contact [master.client] 2022-11-29T11:48:48Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.client_contact
+master.group_advertiser [master.groups master.client] 2022-11-29T11:57:43Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.group_advertiser
