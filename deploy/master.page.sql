@@ -2,7 +2,9 @@
 
 BEGIN;
 
-create table master.page (
+CREATE SCHEMA IF NOT EXISTS master;
+
+create table IF NOT EXISTS master.page (
 	  id serial,
 	  name varchar(100) not null,
 	  remarks text,
