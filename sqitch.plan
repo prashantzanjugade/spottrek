@@ -11,3 +11,4 @@ master.default_page_permission [master master.page master.user_type] 2022-11-29T
 master.groups [master] 2022-11-29T11:08:36Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.groups
 master.sub_group [master master.groups] 2022-11-29T11:13:40Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.sub_group
 master.account_manager [master] 2022-11-29T11:27:18Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.account_manager
+master.users [master.user_type] 2022-11-29T11:31:07Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.users
