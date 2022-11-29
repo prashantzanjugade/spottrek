@@ -7,3 +7,4 @@ master 2022-11-29T09:39:49Z prashantz <zanjugadeprashant@gmail.com> # Create Sch
 @v1.0.0 2022-11-29T10:29:54Z prashantz <zanjugadeprashant@gmail.com> # v1.0.0
 master.page [master.page@v1.0.0 master] 2022-11-29T10:29:56Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.page
 master.user_type [master] 2022-11-29T10:37:39Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.user_type
+master.default_page_permission [master master.page master.user_type] 2022-11-29T11:03:36Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.default_page_permission
