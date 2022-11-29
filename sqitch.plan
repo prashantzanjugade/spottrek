@@ -17,3 +17,4 @@ master.client_contact [master.client] 2022-11-29T11:48:48Z prashantz <zanjugadep
 master.group_advertiser [master.groups master.client] 2022-11-29T11:57:43Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.group_advertiser
 master.user_page_permission [master.users master.page master.client] 2022-11-29T12:01:22Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.user_page_permission
 user_history 2022-11-29T12:05:57Z prashantz <zanjugadeprashant@gmail.com> # Create Table user_history
+login_history 2022-11-29T12:09:12Z prashantz <zanjugadeprashant@gmail.com> # Create Table login_history
