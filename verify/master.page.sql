@@ -2,6 +2,6 @@
 
 BEGIN;
 
--- XXX Add verifications here.
+select id,name,remarks,created_on from master.page where false;
 
 ROLLBACK;

@@ -1,7 +1,7 @@
--- Revert spottrek:master.page from pg
+-- Deploy spottrek:master.page to pg
 
 BEGIN;
 
--- XXX Add DDLs here.
+drop table master.page;
 
 COMMIT;
