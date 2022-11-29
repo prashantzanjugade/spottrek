@@ -9,3 +9,4 @@ master.page [master.page@v1.0.0 master] 2022-11-29T10:29:56Z prashantz <zanjugad
 master.user_type [master] 2022-11-29T10:37:39Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.user_type
 master.default_page_permission [master master.page master.user_type] 2022-11-29T11:03:36Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.default_page_permission
 master.groups [master] 2022-11-29T11:08:36Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.groups
+master.sub_group [master master.groups] 2022-11-29T11:13:40Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.sub_group
