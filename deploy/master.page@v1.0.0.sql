@@ -3,6 +3,7 @@
 BEGIN;
 
 CREATE SCHEMA IF NOT EXISTS master;
+
 create table master.page (
 	  id serial,
 	  name varchar(100) not null,
