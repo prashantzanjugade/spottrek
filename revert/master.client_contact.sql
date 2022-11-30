@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP TABLE master.client_contact;
+DROP TABLE IF EXISTS master.client_contact;
 
 COMMIT;

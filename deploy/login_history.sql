@@ -1,7 +1,7 @@
 -- Deploy spottrek:login_history to pg
 
 BEGIN;
-
+	
 CREATE TYPE session_type_mst AS ENUM ('Login', 'Logout');
 
 create table login_history (

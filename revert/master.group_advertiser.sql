@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP TABLE master.group_advertiser;
+DROP TABLE IF EXISTS master.group_advertiser;
 
 COMMIT;

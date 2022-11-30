@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP TABLE master.client;
+DROP TABLE IF EXISTS master.client cascade;
 
 COMMIT;

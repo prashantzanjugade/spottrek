@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP TABLE master.page;
+DROP TABLE IF EXISTS master.page;
 
 COMMIT;

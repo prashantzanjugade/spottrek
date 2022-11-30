@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP TABLE master.users;
+DROP TABLE IF EXISTS master.users CASCADE;
 
 COMMIT;

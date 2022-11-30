@@ -2,6 +2,7 @@
 
 BEGIN;
 
-DROP TABLE login_history;
+	DROP TABLE login_history;
+	DROP TYPE session_type_mst;
 
 COMMIT;

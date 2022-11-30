@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP TABLE master.user_page_permission;
+DROP TABLE IF EXISTS master.user_page_permission;
 
 COMMIT;

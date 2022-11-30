@@ -6,7 +6,7 @@
 
 BEGIN;
 
-create table master.client (
+create table if not exists master.client (
 	  id bigserial,
 	  name varchar(100) not null,
 	  group_id integer not null,
