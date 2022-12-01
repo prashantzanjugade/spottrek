@@ -2,6 +2,6 @@
 
 BEGIN;
 
-select id,name,remarks,created_on from master.page where false;
+select id,name,remarks,created_on from master.page;
 
 ROLLBACK;

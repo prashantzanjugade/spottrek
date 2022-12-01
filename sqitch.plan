@@ -22,3 +22,4 @@ login_history 2022-11-29T12:09:12Z prashantz <zanjugadeprashant@gmail.com> # Cre
 master.client [master.client@v1.0.1] 2022-12-01T06:16:06Z prashantz <zanjugadeprashant@gmail.com> # Add comment on master.client.client_type column
 master.client_contact [master.client_contact@v1.0.1] 2022-12-01T06:25:21Z prashantz <zanjugadeprashant@gmail.com> # Add comment on master.client_contact.client_contact_type column
 master.user_type [master.user_type@v1.0.1] 2022-12-01T06:32:42Z prashantz <zanjugadeprashant@gmail.com> # Insert default Values in master.user_type master
+master.page [master.page@v1.0.1] 2022-12-01T06:40:12Z prashantz <zanjugadeprashant@gmail.com> # Insert default Values in master.page
