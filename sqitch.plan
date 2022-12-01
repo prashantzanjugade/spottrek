@@ -18,3 +18,4 @@ master.group_advertiser [master.groups master.client] 2022-11-29T11:57:43Z prash
 master.user_page_permission [master.users master.page master.client] 2022-11-29T12:01:22Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.user_page_permission
 user_history 2022-11-29T12:05:57Z prashantz <zanjugadeprashant@gmail.com> # Create Table user_history
 login_history 2022-11-29T12:09:12Z prashantz <zanjugadeprashant@gmail.com> # Create Table login_history
+@v1.0.1 2022-12-01T04:41:15Z prashantz <zanjugadeprashant@gmail.com> # Create Table Done for User & Client
