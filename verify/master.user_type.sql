@@ -2,6 +2,6 @@
 
 BEGIN;
 
-select id, name, remarks from master.user_type where false;
+select name from master.user_type;
 
 ROLLBACK;
