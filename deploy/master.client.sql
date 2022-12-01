@@ -6,6 +6,7 @@
 
 BEGIN;
 
+/*
 create table if not exists master.client (
 	  id bigserial,
 	  name varchar(100) not null,
@@ -28,9 +29,11 @@ create table if not exists master.client (
 	  foreign key (account_manager_id) references master.account_manager (id),
 	  foreign key (created_by) references master.users (id)
 );
+*/
 
-comment on column master.client.client_type is '1 for Broadcaster, 2 for Agency, 3 for Advertiser, 4 for Other';
-ALTER TABLE master.users ADD CONSTRAINT users_client_id foreign key (client_id) references master.client (id);
-ALTER TABLE master.users ADD CONSTRAINT users_created_by foreign key (created_by) references master.users (id);
+comment on column master.client.client_type is '1 for Advertiser, 2 for Broadcaster, 3 for Agency, 4 for Other';
+
+--ALTER TABLE master.users ADD CONSTRAINT users_client_id foreign key (client_id) references master.client (id);
+--ALTER TABLE master.users ADD CONSTRAINT users_created_by foreign key (created_by) references master.users (id);
 
 COMMIT;
