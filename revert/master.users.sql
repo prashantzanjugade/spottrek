@@ -1,7 +1,8 @@
--- Revert spottrek:master.users from pg
+-- Deploy spottrek:master.users to pg
+-- requires: master.user_type
 
 BEGIN;
 
-DROP TABLE IF EXISTS master.users CASCADE;
+alter table master.users drop column status;
 
 COMMIT;
