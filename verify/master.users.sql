@@ -12,7 +12,8 @@ select
   client_id,
   is_all_advertiser,
   created_on,
-  created_by
+  created_by,
+  status
 from master.users
 where false;
 
