@@ -23,3 +23,4 @@ master.client [master.client@v1.0.1] 2022-12-01T06:16:06Z prashantz <zanjugadepr
 master.client_contact [master.client_contact@v1.0.1] 2022-12-01T06:25:21Z prashantz <zanjugadeprashant@gmail.com> # Add comment on master.client_contact.client_contact_type column
 master.user_type [master.user_type@v1.0.1] 2022-12-01T06:32:42Z prashantz <zanjugadeprashant@gmail.com> # Insert default Values in master.user_type master
 master.page [master.page@v1.0.1] 2022-12-01T06:40:12Z prashantz <zanjugadeprashant@gmail.com> # Insert default Values in master.page
+@v1.0.2 2022-12-07T07:32:19Z prashantz <zanjugadeprashant@gmail.com> # Add Status Column in master.users Table
