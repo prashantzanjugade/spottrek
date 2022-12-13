@@ -17,4 +17,14 @@ comment on column master.users.status is '1 for active, 0 for inactive';
 --alter table master.users drop constraint users_client_id;
 alter table master.users drop constraint users_created_by;
 
+alter table master.users drop constraint users_user_type_fkey;
+
+INSERT INTO master.users (id, "name", email, user_type, created_by)
+VALUES(1, 'sysuser', '', 1, 1);
+
+INSERT INTO master.users (id, "name", email, user_type, created_by)
+VALUES(2, 'superadmin', '', 1, 1);
+
+ALTER TABLE master.users ADD CONSTRAINT users_user_type_fkey FOREIGN KEY (user_type) REFERENCES master.user_type(id);
+
 COMMIT;
