@@ -25,3 +25,5 @@ master.user_type [master.user_type@v1.0.1] 2022-12-01T06:32:42Z prashantz <zanju
 master.page [master.page@v1.0.1] 2022-12-01T06:40:12Z prashantz <zanjugadeprashant@gmail.com> # Insert default Values in master.page
 @v1.0.2 2022-12-07T07:32:19Z prashantz <zanjugadeprashant@gmail.com> # Add Status Column in master.users Table
 master.users [master.users@v1.0.2] 2022-12-07T07:37:57Z prashantz <zanjugadeprashant@gmail.com> # Add Status Column in master.users Table
+master.internal_user 2022-12-13T09:16:58Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.internal_user
+master.client_user 2022-12-13T09:17:13Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.client_user

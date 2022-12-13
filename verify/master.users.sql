@@ -3,7 +3,7 @@
 BEGIN;
 
 select
-  id,
+/*  id,
   name,
   email,
   user_type,
@@ -14,6 +14,8 @@ select
   created_on,
   created_by,
   status
+*/
+*
 from master.users
 where false;
 
