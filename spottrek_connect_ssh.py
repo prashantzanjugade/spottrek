@@ -13,7 +13,7 @@ def sqitch_deploy():
     print(sftp.stat(os.getenv('dir_check')))
     print('Directory Exists')
 
-    # os.system("sshpass -p userapp@123 rsync -avrz /root/sqitch_test/ appuser@10.10.2.236:/home/appuser/test/sqitch_test/")
+    # os.system("sshpass -p userapp@123 rsync -avrz /root/spot/spottrek-db/ appuser@10.10.2.236:/home/appuser/spot/spottrek-db")
     os.system('sshpass -p ' + os.getenv('password') + ' rsync -vz ' + os.getenv('from_path') + ' ' + os.getenv(
         'username') + '@' + os.getenv('host_ip_addr') + ':' + os.getenv('to_path'))
 
