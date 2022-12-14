@@ -5,16 +5,7 @@
 
 BEGIN;
 
-create table master.user_page_permission (
-	  id bigserial,
-	  users_id integer not null,
-	  page_id integer not null,
-	  created_on timestamp default now(),	
-	  created_by integer not null,
-	  primary key (id),
-	  foreign key (users_id) references master.users (id),
-	  foreign key (page_id) references master.page (id),
-	  foreign key (created_by) references master.client(id)
-);
+ALTER TABLE master.user_page_permission DROP CONSTRAINT user_page_permission_created_by_fkey;
+ALTER TABLE master.user_page_permission ADD CONSTRAINT user_page_permission_created_by_fkey FOREIGN KEY (created_by) REFERENCES master.users(id);
 
 COMMIT;
