@@ -14,7 +14,7 @@ def sqitch_deploy():
     print('Directory Exists')
 
     # os.system("sshpass -p userapp@123 rsync -avrz /root/spot/spottrek-db/ appuser@10.10.2.236:/home/appuser/spot/spottrek-db")
-    os.system('sshpass -p ' + os.getenv('password') + ' rsync -avz ' + os.getenv('from_path') + ' ' + os.getenv(
+    os.system('sshpass -p ' + os.getenv('password') + ' rsync -av ' + os.getenv('from_path') + ' ' + os.getenv(
         'username') + '@' + os.getenv('host_ip_addr') + ':' + os.getenv('to_path'))
 
     #ssh_stdin, ssh_stdout, ssh_stderr = client.exec_command('cd test/sqitch_test/ ; sqitch deploy db:pg://appuser:12345@10.10.2.236:5432/sqitch_test')
