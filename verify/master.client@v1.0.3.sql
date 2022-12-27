@@ -3,8 +3,8 @@
 BEGIN;
 
 select
-  modified_on,
-  modified_by
+  status,
+  suspend_date
 from master.client
 where false;
 

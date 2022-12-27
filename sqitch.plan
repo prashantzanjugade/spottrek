@@ -29,3 +29,6 @@ master.internal_user 2022-12-13T09:16:58Z prashantz <zanjugadeprashant@gmail.com
 master.client_user 2022-12-13T09:17:13Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.client_user
 master.user_page_permission [master.user_page_permission@v1.0.2] 2022-12-14T09:12:06Z prashantz <zanjugadeprashant@gmail.com> # master.user_page_permission FK changes created_by
 master.client [master.client@v1.0.2] 2022-12-22T06:32:58Z prashantz <zanjugadeprashant@gmail.com> # Add column status, suspend_date in master.client
+@v1.0.3 2022-12-27T10:09:54Z prashantz <zanjugadeprashant@gmail.com> # v1.0.2
+master.users [master.users@v1.0.3] 2022-12-27T10:10:17Z prashantz <zanjugadeprashant@gmail.com> # Add Column modifed_on, modified_by in master.users
+master.client [master.client@v1.0.3] 2022-12-27T10:10:32Z prashantz <zanjugadeprashant@gmail.com> # Add Column modifed_on, modified_by in master.client
