@@ -48,3 +48,4 @@ master.programgenre 2023-01-05T08:48:56Z prashantz <zanjugadeprashant@gmail.com>
 master.advertiser 2023-01-05T08:53:43Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.advertiser
 master.channel 2023-01-05T08:56:48Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.channel
 master.program 2023-01-05T09:01:06Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.program
+master.brand 2023-01-05T09:04:30Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.brand
