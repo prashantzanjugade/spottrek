@@ -39,3 +39,4 @@ master.promocategory 2023-01-05T06:35:04Z prashantz <zanjugadeprashant@gmail.com
 master.network 2023-01-05T06:39:18Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.network
 master.region 2023-01-05T07:32:49Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.region
 master.brandsector 2023-01-05T07:36:06Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.brandsector
+master.brandcategory 2023-01-05T07:43:10Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.brandcategory
