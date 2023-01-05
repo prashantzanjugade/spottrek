@@ -3,8 +3,8 @@
 BEGIN;
 
 select
-  id serial,
-  broadcastercode integer,
+  id,
+  broadcastercode,
   created_on
 from master.broadcaster
 where false;
