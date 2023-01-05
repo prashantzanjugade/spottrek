@@ -14,4 +14,5 @@ select
 from master.brand
 where false;
 
+
 ROLLBACK;
