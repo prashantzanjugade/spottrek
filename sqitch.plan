@@ -41,3 +41,4 @@ master.region 2023-01-05T07:32:49Z prashantz <zanjugadeprashant@gmail.com> # Cre
 master.brandsector 2023-01-05T07:36:06Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.brandsector
 master.brandcategory 2023-01-05T07:43:10Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.brandcategory
 master.advertisinggroup 2023-01-05T07:46:01Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.advertisinggroup
+master.descriptor 2023-01-05T07:48:45Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.descriptor
