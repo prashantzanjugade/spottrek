@@ -32,3 +32,4 @@ master.client [master.client@v1.0.2] 2022-12-22T06:32:58Z prashantz <zanjugadepr
 @v1.0.3 2022-12-27T10:09:54Z prashantz <zanjugadeprashant@gmail.com> # v1.0.2
 master.users [master.users@v1.0.3] 2022-12-27T10:10:17Z prashantz <zanjugadeprashant@gmail.com> # Add Column modifed_on, modified_by in master.users
 master.client [master.client@v1.0.3] 2022-12-27T10:10:32Z prashantz <zanjugadeprashant@gmail.com> # Add Column modifed_on, modified_by in master.client
+master.contenttype 2023-01-05T06:14:21Z prashantz <zanjugadeprashant@gmail.com> # Create Table master.contenttype
