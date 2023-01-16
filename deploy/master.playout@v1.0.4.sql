@@ -2,7 +2,6 @@
 
 BEGIN;
 
-/*
 create table master.playout (
 	  id bigserial,
 	  broadcaster_id integer,
@@ -73,8 +72,7 @@ create table master.playout (
 	  foreign key (brand_id) references master.brand (id),
 	  foreign key (advertiser_id) references master.advertiser (id)
 );
-*/
 
-ALTER TABLE master.playout RENAME COLUMN broadcaster_id to broadcaster_cd;
+--ALTER TABLE master.playout RENAME COLUMN broadcaster_id to broadcaster_cd;
 
 COMMIT;

@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP SCHEMA master;
+DROP SCHEMA master CASCADE;
 
 COMMIT;

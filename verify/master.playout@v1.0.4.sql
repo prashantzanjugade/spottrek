@@ -2,7 +2,6 @@
 
 BEGIN;
 
-/*
 select
   id ,
   broadcaster_id ,
@@ -62,8 +61,7 @@ select
   created_on
 from master.playout
 where false;
-*/
 
-select broadcaster_cd from master.playout where false;
+--select broadcaster_cd from master.playout where false;
 
 ROLLBACK;

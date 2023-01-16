@@ -2,6 +2,6 @@
 
 BEGIN;
 
-select name from master.user_type;
+select * from master.user_type;
 
 ROLLBACK;
