@@ -2,8 +2,6 @@
 
 BEGIN;
 
-drop table master.promo;
-
 create table master.promo (
 	  id serial,
 	  brand_id integer,

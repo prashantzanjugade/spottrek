@@ -54,3 +54,4 @@ master.playout 2023-01-05T09:12:06Z prashantz <zanjugadeprashant@gmail.com> # Cr
 @v1.0.4 2023-01-16T11:25:00Z prashantzanjugade <prashant.zanjugade@barcindia.co.in> # v1.0.4
 master.broadcaster [master.broadcaster@v1.0.4] 2023-01-16T12:19:35Z prashantzanjugade <prashant.zanjugade@barcindia.co.in> # master.broadcaster Table Not Required
 master.playout [master.playout@v1.0.4] 2023-01-16T12:29:18Z prashantzanjugade <prashant.zanjugade@barcindia.co.in> # master.playout Rename Column broadcaster_id To broadcaster_cd
+master.promo [master.promo@v1.0.4] 2023-01-24T07:04:15Z prashant.zanjugade <prashant.zanjugade@barcindia.co.in> # master.promo Table Changes
